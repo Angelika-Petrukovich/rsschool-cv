@@ -27,7 +27,7 @@ c = a * b
 return c
 	}
 multiply(5,6)
-console.log(c)
+console.log(c) //30
 ```
 
 ### Education--------------------------------------------
