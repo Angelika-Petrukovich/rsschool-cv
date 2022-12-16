@@ -150,8 +150,6 @@ li{
 }
 .about_me-button-text {
 }
-.text {
-}
 .about_me-items {
 	margin: 10px 0px 0px 0px;
 	line-height: 122%;
@@ -182,8 +180,6 @@ li{
 	transition: 1s;
 }
 .education-button-text {
-}
-.text {
 }
 .education-items {
 	margin: 10px 0px 0px 0px;
@@ -220,8 +216,6 @@ li{
 }
 .skills-button-text {
 }
-.text {
-}
 .skills-items {
 	margin: 10px 0px 0px 0px;
 	line-height: 132%;
@@ -252,8 +246,6 @@ li{
 }
 .code-button-text {
 }
-.text {
-}
 .code-item {
 	margin: 10px 0px 0px 0px;
 	line-height: 132%;
@@ -283,8 +275,6 @@ li{
 }
 .languages-button-text {
 }
-.text {
-}
 .languages-items {
 	margin: 10px 0px 0px 0px;
 	line-height: 132%;
@@ -296,21 +286,34 @@ li{
 }
 /*----------Footer----------------*/
 .footer {
-	margin: 20px 30px 30px 40px;
+	margin: 20px 0px 0px 0px;
+	background-color:#B38C66;
+	height: 100px;
+	width: 100%;
 }
-.footer_part {
-	display: block;
+.footer-part {
 }
-
-
-.footer_items {
-	display: block;
+.footer-items {
+   margin: 30px 30px 0px 30px;
+	padding-top: 20px;
 	display: flex;
 	font-size: 18px;
 	align-items: flex-end;
 	justify-content: space-between;
 }
-.footer_sign {
+.footer-sign {
+	padding-bottom: 15px;
 }
-.footer_icon {
+.footer-sign:hover {
+	transform: scale(1.1, 1.1);
+	transition: 1s;
+}
+.footer-link{
+	color: #28201E;
+}
+.footer-icon {
+}
+.footer-icon:hover {
+	transform: scale(1.1, 1.1);
+	transition: 1s;
 }
