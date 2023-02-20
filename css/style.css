@@ -157,18 +157,14 @@ li{
 	font-weight: 500;
 	color: #28201E;
 }
-.about_icon_en img{
-	margin-left: 5px;
-	max-width: 30px;
-	max-height: 30px;
+.about_icon_en{
+text-decoration: underline;
+font-weight: 900;
 }
-.about_icon_pl img{
-	display: block;
-	overflow: hidden;
-	margin-top: 10px;
-	max-width: 40px;
-	max-height: 40px;
-	border-radius: 50%;
+.about_icon_pl{
+margin-top: 10px;
+text-decoration: underline;
+font-weight: 900;
 }
 .about_me-item {
 }
@@ -236,20 +232,16 @@ li{
 .skills_list li{
 	margin-top: 10px;
 }
-.skills_icon_en img{
-	margin-left: 5px;
-	max-width: 30px;
-	max-height: 30px;
+.skills_icon_en{
+	text-decoration: underline;
+	font-weight: 900;
 }
-.skills_icon_pl img{
-	display: block;
-	overflow: hidden;
-	margin-top: 10px;
-	max-width: 40px;
-	max-height: 40px;
-	border-radius: 50%;
+.skills_icon_pl{
+	text-decoration: underline;
+	font-weight: 900;
 }
 .skills_extra{
+	display: block;
 	font-size: 20px;
 	color:#B38C66;
 	text-decoration: underline;
