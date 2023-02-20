@@ -63,7 +63,6 @@ li{
 }
 .header-info {
 	display: flex;
-	
 }
 .header-foto {
 }
@@ -86,6 +85,7 @@ li{
 	letter-spacing: 0.2px;
 	color: #28201E;
 }
+
 /*----------Contacts---------------------*/
 .contacts {
 	margin: 60px 20px 30px 180px;
@@ -157,10 +157,21 @@ li{
 	font-weight: 500;
 	color: #28201E;
 }
+.about_icon_en img{
+	margin-left: 5px;
+	max-width: 30px;
+	max-height: 30px;
+}
+.about_icon_pl img{
+	display: block;
+	overflow: hidden;
+	margin-top: 10px;
+	max-width: 40px;
+	max-height: 40px;
+	border-radius: 50%;
+}
 .about_me-item {
 }
-
-
 /*-----------Education----------------------*/
 .education {
 	margin: 40px 20px 30px 180px;
@@ -196,7 +207,6 @@ li{
 
 .education-year {
 }
-	
 /*-------------Skills------------------*/
 .skills {
 	margin: -10px 20px 30px 180px;
@@ -223,10 +233,27 @@ li{
 	font-weight: 500;
 	color: #28201E;
 }
-.skills_list {
+.skills_list li{
+	margin-top: 10px;
 }
-
-
+.skills_icon_en img{
+	margin-left: 5px;
+	max-width: 30px;
+	max-height: 30px;
+}
+.skills_icon_pl img{
+	display: block;
+	overflow: hidden;
+	margin-top: 10px;
+	max-width: 40px;
+	max-height: 40px;
+	border-radius: 50%;
+}
+.skills_extra{
+	font-size: 20px;
+	color:#B38C66;
+	text-decoration: underline;
+}
 /*-----------Code---------------------*/
 .code {
 	margin: 40px 20px 30px 180px;
@@ -246,16 +273,13 @@ li{
 }
 .code-button-text {
 }
-.code-item {
+.code-item li{
 	margin: 10px 0px 0px 0px;
 	line-height: 132%;
 	font-size: 16px;
 	font-weight: 500;
 	color: #28201E;
 }
-.code-example {
-}
-
 /*---------Languages-------------*/
 .languages {
 	margin: 40px 20px 30px 180px;
@@ -275,7 +299,7 @@ li{
 }
 .languages-button-text {
 }
-.languages-items {
+.languages-items li{
 	margin: 10px 0px 0px 0px;
 	line-height: 132%;
 	font-size: 16px;
@@ -293,27 +317,46 @@ li{
 }
 .footer-part {
 }
-.footer-items {
-   margin: 30px 30px 0px 30px;
-	padding-top: 20px;
-	display: flex;
-	font-size: 18px;
-	align-items: flex-end;
-	justify-content: space-between;
+/*----------MEDIA---------------*/
+@media(max-width: 480px){
+	.header-content {
+		min-width: 100%;
+		background-color: #B38C66;
+		max-width: 100%;
+		max-height: 145px;
+		margin-right: 5px;
+	}
+	.header-avatar {
+	width: 120px;
+	height: 145px;
+	}
+	.header-block{
+		padding: 30px 0px 0px 40px;
+	}
+	.header-name {
+		font-size: 30px;
+		font-weight: 700;
+		letter-spacing: 0.2px;
+		color: #28201E;
+	}
 }
-.footer-sign {
-	padding-bottom: 15px;
-}
-.footer-sign:hover {
-	transform: scale(1.1, 1.1);
-	transition: 1s;
-}
-.footer-link{
-	color: #28201E;
-}
-.footer-icon {
-}
-.footer-icon:hover {
-	transform: scale(1.1, 1.1);
-	transition: 1s;
+@media(max-width: 480px){
+	.contacts {
+		margin: 60px 20px 30px 5px;
+	}
+	.about_me {
+		margin: 40px 20px 30px 5px;
+	}
+	.education {
+		margin: 40px 20px 30px 5px;
+	}
+	.skills {
+		margin: -10px 20px 30px 5px;
+	}
+	.code {
+		margin: 40px 20px 30px 5px;
+	}
+	.languages {
+		margin: 40px 20px 30px 5px;
+	}
 }
